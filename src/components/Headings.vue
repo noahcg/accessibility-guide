@@ -40,10 +40,4 @@ export default {
 </script>
 
 <style scoped>
-pre code {
-  background-color: #eee;
-  border: 1px solid #999;
-  display: block;
-  padding: 20px;
-}
 </style>

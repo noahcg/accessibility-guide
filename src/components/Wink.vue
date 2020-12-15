@@ -1,5 +1,5 @@
 <template>
-  <a :href="href">
+  <a :class="styles" :href="href">
     <!-- @slot default inner link content -->
     <slot></slot>
   </a>
@@ -7,8 +7,8 @@
 
 <script>
 export default {
-  name: "my-link",
-  props: ["href"],
+  name: "wink",
+  props: ["href", "styles"],
 };
 </script>
 
