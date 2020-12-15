@@ -5,20 +5,36 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "storybook:build": "vue-cli-service --no-manager-cache storybook:build -c config/storybook",
+    "storybook:serve": "vue-cli-service --no-manager-cache storybook:serve -p 6006 -c config/storybook"
   },
   "dependencies": {
+    "@storybook/theming": "^6.1.11",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.8.6",
     "core-js": "^3.6.5",
+    "postcss": "^7.0.35",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+    "tailwindcss-transitions": "^2.1.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^6.0.26",
+    "@storybook/addon-links": "^6.0.26",
+    "@storybook/vue": "^6.0.26",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-cli-plugin-storybook": "^2.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "node-sass": "^4.14.0",
+    "sass-loader": "^8.0.2"
   },
   "eslintConfig": {
     "root": true,
