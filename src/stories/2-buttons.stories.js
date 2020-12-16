@@ -5,10 +5,10 @@ import "tailwindcss/tailwind.css"
 import "../assets/css/styles.css"
 
 export default {
-  title: 'Semantics/Links and Buttons',
+  title: 'Semantics/Interactive Elements',
 }
 
-export const overview = () => ({
+export const linksAndButtons = () => ({
   components: { MyButton, Wink, Wcag },
   template: `
   <div class="container mx-auto p-9">
