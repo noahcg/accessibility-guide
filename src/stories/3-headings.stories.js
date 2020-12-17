@@ -1,5 +1,4 @@
 import Headings from '../components/Headings.vue'
-import "tailwindcss/tailwind.css"
 
 export default {
   title: 'Semantics/Headings',

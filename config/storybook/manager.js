@@ -1,6 +1,5 @@
 import { addons } from '@storybook/addons';
 import myTheme from './theme';
-import "tailwindcss/tailwind.css"
 
 addons.setConfig({
   isFullscreen: false,

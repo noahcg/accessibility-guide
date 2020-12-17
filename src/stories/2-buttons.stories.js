@@ -1,7 +1,6 @@
 import MyButton from '../components/MyButton.vue'
 import Wink from '../components/Wink.vue'
 import Wcag from '../components/Wcag.vue'
-import "tailwindcss/tailwind.css"
 import "../assets/css/styles.css"
 
 export default {
@@ -55,11 +54,14 @@ export const linksAndButtons = () => ({
           <li>A button respond with a click event to the Space key or Enter key</li>
           <li>A button can be disabled with the disabled attribute</li>
           <li>A button are communicated as buttons to screen readers (no need to add role="button")</li>
-          <li>A button accept :focus, :hover, :active, :disabled styles</li>
+          <li>A button accepts :focus, :hover, :active, :disabled styles</li>
         </ul>
-        <pre><code>&lt;button type="button">This is discernable text&lt;/button>
+<pre><code>&lt;button type="button">This is discernable text&lt;/button>
 &lt;button type="button">Show Messages &lt;img src="..." />&lt;/button>
-&lt;button type="button">&lt;img src="..." alt="Show Messages" />&lt;/button></code></pre>
+&lt;button type="button">&lt;img src="..." alt="Show Messages" />&lt;/button>
+
+<button class="bg-blue-600 font-sans px-6 py-3 rounded-full text-white hover:bg-red-500 focus:border-0 focus:ring-4 focus:ring-red-500 focus:outline-none" type="button">This is discernable text</button><button class="bg-blue-600 font-sans ml-4 px-6 py-3 rounded text-white hover:bg-red-500 focus:border-0 focus:ring-4 focus:ring-red-500 focus:outline-none" type="button">Show Message <img class="mx-auto" width="50" height="50" src="https://kubalubra.is/wp-content/uploads/2017/11/default-thumbnail.jpg" /></button><button class="bg-blue-600 font-sans ml-4 px-6 py-3 rounded text-white hover:bg-red-500 focus:border-0 focus:ring-4 focus:ring-red-500 focus:outline-none" type="button"><img class="mx-auto" width="50" height="50" src="https://kubalubra.is/wp-content/uploads/2017/11/default-thumbnail.jpg" alt="Show Message" /></button></code></pre>
+
       </div>
     </div>
   </div>`

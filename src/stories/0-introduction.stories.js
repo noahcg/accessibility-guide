@@ -1,6 +1,3 @@
-import "@tailwindcss/postcss7-compat/base.css"
-import "tailwindcss/tailwind.css"
-
 export default {
   title: 'Welcome/Introduction',
 }

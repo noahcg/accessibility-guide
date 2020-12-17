@@ -1,5 +1,4 @@
 import Wcag from '../components/Wcag.vue'
-import "tailwindcss/tailwind.css"
 import "../assets/css/styles.css"
 
 export default {
